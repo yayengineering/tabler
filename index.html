@@ -14,22 +14,11 @@
   <!-- navbar -->
   <header class="navbar navbar-expand-md d-print-none">
     <div class="container-xl">
-<!-- i think this is the hamburger sidebar for mobile view
-      <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbar-menu"
-      aria-controls="navbar-menu"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-      >
-      <span class="navbar-toggler-icon"></span>
-    </button>
--->    
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="javascript:void(0)">
+      
+    <!-- Home Button -->
+      <li class="nav-item active"> <!-- showing highlight bar under button to show currently on page -->
+        <a class="nav-link" href="javascript:void(0)"> <!-- button doesnt take you anywhere when clicked -->
           <span class="nav-link-icon">
             <!-- Download SVG icon from http://tabler.io/icons/icon/home -->
             <svg
@@ -47,15 +36,17 @@
               <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
               <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
               <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" />
-            </svg>
+            </svg> <!-- find svg cade here: https://tabler.io/icons -->
           </span>
-          <span class="nav-link-title"> Home </span>
+          <span class="nav-link-title"> Home </span> <!-- shows string next to icon -->
         </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/tabler/links.html">
+      
+    <!-- Socials Button -->      
+      <li class="nav-item"> <!-- not showing highlight bar under button -->
+        <a class="nav-link" href="/tabler/links.html"> <!-- button takes you to shown link when clicked -->
           <span class="nav-link-icon" 
-            ><!-- Download SVG icon from http://tabler.io/icons/icon/checkbox -->
+            ><!-- This icon doesnt have a webpage, but can be found by searching "user" from: http://tabler.io/icons/ -->
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -73,15 +64,15 @@
               <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
             </svg>
           </span>
-          <span class="nav-link-title"> Socials </span>
+          <span class="nav-link-title"> Socials </span> <!-- shows string next to icon -->
           
         </a>
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="javascript:void(0)">
+        <a class="nav-link" href="javascript:void(0)"> <!-- button takes you to shown link when clicked -->
           <span class="nav-link-icon"
-            ><!-- Download SVG icon from http://tabler.io/icons/icon/checkbox -->
+            ><!-- Download SVG icon from http://tabler.io/icons/icon/device-gamepad -->
             <svg  xmlns="http://www.w3.org/2000/svg"
               width="24"  
               height="24"  
@@ -101,14 +92,14 @@
               <path d="M18 13l0 .01" />
             </svg>
           </span>
-          <span class="nav-link-title"> Daily Games </span>
+          <span class="nav-link-title"> Daily Games </span> <!-- shows string next to icon -->
         </a>
       </li>
     
       <li class="nav-item">
-        <a class="nav-link" href="javascript:void(0)">
+        <a class="nav-link" href="javascript:void(0)"> <!-- button takes you to shown link when clicked -->
           <span class="nav-link-icon"
-            ><!-- Download SVG icon from http://tabler.io/icons/icon/checkbox -->
+            ><!-- Download SVG icon from https://tabler.io/icons/icon/books -->
             <svg  
               xmlns="http://www.w3.org/2000/svg"  
               width="24"  
@@ -131,12 +122,20 @@
               <path d="M16 16l3.923 -.98" />
             </svg>
           </span>
-          <span class="nav-link-title"> PE Study </span>
+          <span class="nav-link-title"> PE Study </span> <!-- shows string next to icon -->
         </a>
       </li>
         
     
-    
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-menu"
+          aria-controls="navbar-menu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
     
     
     
